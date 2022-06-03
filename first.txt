@@ -1,1 +1,3 @@
 今から git を学びます。
+git add
+git commit
