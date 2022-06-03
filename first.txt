@@ -3,3 +3,4 @@ git add
 git add .　全てのファイルをステージングエリアに保存
 git commit -v 変更内容確認可能
 git rm
+git status
