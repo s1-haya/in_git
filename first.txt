@@ -8,3 +8,4 @@ git log 変更履歴の確認
 　●git log --oneline 一行で表示（何が変更されたかわかるため）
 　●git log -p index.html ファイルの変更差分を表示（変更前と後を確認するため） 
 　●git log -n int int分の最新のファイルの変更差分を表示
+  終了　Q 上　k 下　j
