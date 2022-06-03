@@ -1,3 +1,5 @@
 今から git を学びます。
 git add
-git commit
+git add .　全てのファイルをステージングエリアに保存
+git commit -v 変更内容確認可能
+git rm
