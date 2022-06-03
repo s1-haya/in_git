@@ -10,5 +10,10 @@ git log 変更履歴の確認
 　●git log -n int int分の最新のファイルの変更差分を表示
   終了　Q 上　k 下　j
 
-git diff ステージとローカルデイポジトリとの差分
+git diff ステージとローカルリポジトリとの差分
 git diff HEAD ステージとコミットとの差分
+
+リモートリポジトリ　＝ git hub
+git remote add orign url  ローカルリポジトリからリモートリポジトリーに登録
+git push orign master ローカルリポジトリからリモートリポジトリーに送信
+git push orign feature master以外のブランチへの送信
