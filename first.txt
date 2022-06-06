@@ -2,7 +2,9 @@
 git add
 git add .　全てのファイルをステージングエリアに保存
 git commit -v 変更内容確認可能
-git rm
+
+git rm ファイル削除（リポジトり、ワークツリー）
+git rm --cached ＜ファイル名＞　ファイル削除（リポジトリ）
 git status gitリポジトリの現在の状況を確認
 git log 変更履歴の確認
 　●git log --oneline 一行で表示（何が変更されたかわかるため）
