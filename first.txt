@@ -19,3 +19,6 @@ git diff HEAD ステージとコミットとの差分
 git remote add orign url  ローカルリポジトリからリモートリポジトリーに登録
 git push orign master ローカルリポジトリからリモートリポジトリーに送信
 git push orign feature master以外のブランチへの送信
+
+
+コンフリクトを実際に起こしてみよう！！
