@@ -21,3 +21,16 @@ git push orign master ローカルリポジトリからリモートリポジト�
 git push orign feature master以外のブランチへの送信
 
 git merge 
+コンフリクト　複数人が同じ箇所を変更した場合に起きる現象。
+
+コンフリクト関連の事故が起きにくい運用ルール
+●複数人で同じファイルを変更しない
+->一番重要なこと
+●pullやmergeする前に変更中の状態を無くしておく。（commitやstach）
+->変更中があってpullやmergeをした場合、pullやmergeができなくなる可能性があるから。
+●pullするときは、pullするブランチに移動してpullする
+->他のブランチの状態でデフォルトのブランチをすると意図せずにmergeが起こってしまうから。
+●コンフリクトした時の心持ち
+
+pull request
+github flow
