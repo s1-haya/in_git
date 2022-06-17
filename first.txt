@@ -22,3 +22,4 @@ git push orign feature master以外のブランチへの送信
 
 git merge 
 コンフリクト　複数人が同じ箇所を変更した場合に起きる現象。
+
